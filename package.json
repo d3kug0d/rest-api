@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "4.21.1",
+    "nodemon": "^3.1.7",
+    "zod": "3.23.8"
+  },
+  "name": "rest-api-class",
+  "version": "1.0.0",
+  "description": "This is a project in node for api restful",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}

@@ -1,0 +1,38 @@
+### Recuperar las peliculas
+
+GET http://localhost:1234/
+
+### Recuperar una pelicula todas las peliculas
+GET http://localhost:1234/movies
+
+### Recuperar una pelicula por Id
+
+GET http://localhost:1234/movies/1
+
+### Recuperar por genero
+
+GET http://localhost:1234/movies?genre=DRAMA
+
+### CREAR PELICULA
+
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+  "sql": "select * from users",
+  "title": "Ghost",
+  "director": "Juan Alberto",
+  "release_year": 2020,
+  "genre": ["Locuras","Adventure"],
+  "rating": 5
+}
+
+### Update a movie
+
+PATCH http://localhost:1234/movies/2
+
+Content-Type: application/json
+
+{
+  "release_year" : 2000,
+}
