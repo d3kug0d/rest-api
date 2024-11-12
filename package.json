@@ -10,11 +10,23 @@
   "description": "This is a project in node for api restful",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "build": "node app.js"
   },
-  "author": "",
+  "author": "d3ku",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^5.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3kug0d/rest-api.git"
+  },
+  "keywords": [
+    "learning"
+  ],
+  "bugs": {
+    "url": "https://github.com/d3kug0d/rest-api/issues"
+  },
+  "homepage": "https://github.com/d3kug0d/rest-api#readme"
 }
