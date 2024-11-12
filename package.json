@@ -10,7 +10,6 @@
   "description": "This is a project in node for api restful",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js",
     "build": "node app.js"
   },
   "author": "d3ku",
