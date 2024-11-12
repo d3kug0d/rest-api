@@ -147,6 +147,6 @@ app.options('/movies/:id', (req,res) =>{
   res.sendStatus(200)
 })
 
-app.listen(port, () => {
-  console.log(`the api its listen in http://localhost:${port}`)
+app.listen(PORT, () => {
+  console.log(`the api its listen in http://localhost:${PORT}`)
 })
